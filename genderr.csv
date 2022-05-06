@@ -1,0 +1,567 @@
+﻿Job,Female Total Workers,Male Total Workers,Role: Who Dominates More?,Female Median Earnings,Male Median Earnings,Earnings: Who Dominates More?
+Total:,47766259,62582789,Male Total Workers,"44,344","54,601",Male Median Earnings
+    Chief executives,297861,886353,Male Total Workers,"120,255","155,236",Male Median Earnings
+    General and operations managers,294618,647620,Male Total Workers,"62,376","81,811",Male Median Earnings
+    Legislators,5490,7086,Male Total Workers,"56,063","78,048",Male Median Earnings
+    Advertising and promotions managers,24942,21460,Female Total Workers,"68,038","86,335",Male Median Earnings
+    Marketing managers,268066,183247,Female Total Workers,"75,819","101,105",Male Median Earnings
+    Sales managers,144218,315541,Male Total Workers,"74,428","105,058",Male Median Earnings
+    Public relations and fundraising managers,44227,22933,Female Total Workers,"77,212","89,905",Male Median Earnings
+    Administrative services managers,35388,16325,Female Total Workers,"65,238","79,646",Male Median Earnings
+    Facilities managers,19050,75884,Male Total Workers,"60,996","72,496",Male Median Earnings
+    Computer and information systems managers,160971,416572,Male Total Workers,"102,590","118,427",Male Median Earnings
+    Financial managers,624587,528715,Female Total Workers,"67,797","105,659",Male Median Earnings
+    Compensation and benefits managers,13589,4443,Female Total Workers,"77,034","105,134",Male Median Earnings
+    Human resources managers,212141,116443,Female Total Workers,"76,810","86,952",Male Median Earnings
+    Training and development managers,26970,23890,Female Total Workers,"74,317","85,520",Male Median Earnings
+    Industrial production managers,50996,192495,Male Total Workers,"75,308","84,084",Male Median Earnings
+    Purchasing managers,94045,99802,Male Total Workers,"73,387","86,899",Male Median Earnings
+"    Transportation, storage, and distribution managers",44130,193521,Male Total Workers,"56,678","57,538",Male Median Earnings
+"    Farmers, ranchers, and other agricultural managers",55301,407547,Male Total Workers,"32,330","45,166",Male Median Earnings
+    Construction managers,54297,640674,Male Total Workers,"66,826","78,565",Male Median Earnings
+    Education and childcare administrators,513168,291258,Female Total Workers,"68,397","86,554",Male Median Earnings
+    Architectural and engineering managers,16572,147453,Male Total Workers,"140,417","142,415",Male Median Earnings
+    Food service managers,363900,429554,Male Total Workers,"35,122","47,314",Male Median Earnings
+    Funeral home managers,2330,4349,Male Total Workers,"49,433","76,586",Male Median Earnings
+    Entertainment and recreation managers,18767,28530,Male Total Workers,"55,560","68,852",Male Median Earnings
+    Lodging managers,57583,54485,Female Total Workers,"46,577","56,693",Male Median Earnings
+    Medical and health services managers,456279,179942,Female Total Workers,"71,194","92,649",Male Median Earnings
+    Natural sciences managers,11217,8526,Female Total Workers,"78,317","110,162",Male Median Earnings
+    Postmasters and mail superintendents,12452,11578,Female Total Workers,"72,723","80,619",Male Median Earnings
+"    Property, real estate, and community association managers",241808,240803,Female Total Workers,"50,783","67,125",Male Median Earnings
+    Social and community service managers,240783,101311,Female Total Workers,"57,106","70,578",Male Median Earnings
+    Emergency management directors,3742,6777,Male Total Workers,"67,199","76,169",Male Median Earnings
+"    Personal service managers, all other",10205,7851,Female Total Workers,"50,245","68,610",Male Median Earnings
+"    Managers, all other",1210521,2291374,Male Total Workers,"71,324","91,168",Male Median Earnings
+"    Agents and business managers of artists, performers, and athletes",13897,18546,Male Total Workers,"56,468","63,312",Male Median Earnings
+"    Buyers and purchasing agents, farm products",2240,5596,Male Total Workers,"54,500","61,754",Male Median Earnings
+"    Wholesale and retail buyers, except farm products",68436,69842,Male Total Workers,"46,950","45,499",Female Median Earnings
+"    Purchasing agents, except wholesale, retail, and farm products",132655,119819,Female Total Workers,"54,744","63,110",Male Median Earnings
+"    Claims adjusters, appraisers, examiners, and investigators",182896,123822,Female Total Workers,"52,950","65,503",Male Median Earnings
+    Compliance officers,137911,123399,Female Total Workers,"67,569","76,660",Male Median Earnings
+    Cost estimators,19067,110865,Male Total Workers,"51,642","71,310",Male Median Earnings
+    Human resources workers,547791,195779,Female Total Workers,"59,950","71,635",Male Median Earnings
+"    Compensation, benefits, and job analysis specialists",43071,13089,Female Total Workers,"57,693","70,538",Male Median Earnings
+    Training and development specialists,68035,56690,Female Total Workers,"57,935","70,326",Male Median Earnings
+    Logisticians,43730,84767,Male Total Workers,"51,141","59,062",Male Median Earnings
+    Project management specialists,257698,355713,Male Total Workers,"80,670","96,332",Male Median Earnings
+    Management analysts,296476,404630,Male Total Workers,"81,526","97,376",Male Median Earnings
+"    Meeting, convention, and event planners",74930,21238,Female Total Workers,"52,320","51,093",Female Median Earnings
+    Fundraisers,50323,21527,Female Total Workers,"68,805","77,119",Male Median Earnings
+    Market research analysts and marketing specialists,158739,116208,Female Total Workers,"66,710","81,430",Male Median Earnings
+"    Business operations specialists, all other",156447,134988,Female Total Workers,"57,867","78,187",Male Median Earnings
+    Accountants and auditors,949574,656082,Female Total Workers,"63,289","81,082",Male Median Earnings
+    Property appraisers and assessors,27707,49972,Male Total Workers,"52,429","70,226",Male Median Earnings
+    Budget analysts,28794,17358,Female Total Workers,"75,838","85,944",Male Median Earnings
+    Credit analysts,15931,13711,Female Total Workers,"57,191","70,556",Male Median Earnings
+    Financial and investment analysts,91686,134268,Male Total Workers,"80,310","94,569",Male Median Earnings
+    Personal financial advisors,104876,247341,Male Total Workers,"73,079","116,027",Male Median Earnings
+    Insurance underwriters,65088,39371,Female Total Workers,"62,352","78,075",Male Median Earnings
+    Financial examiners,7833,8579,Male Total Workers,"76,096","92,233",Male Median Earnings
+    Credit counselors and loan officers,164830,139336,Female Total Workers,"54,192","82,163",Male Median Earnings
+"    Tax examiners and collectors, and revenue agents",31606,18062,Female Total Workers,"53,882","66,396",Male Median Earnings
+    Tax preparers,29933,22757,Female Total Workers,"50,034","70,758",Male Median Earnings
+    Other financial specialists,34287,30300,Female Total Workers,"55,251","92,387",Male Median Earnings
+    Computer and information research scientists,5752,16618,Male Total Workers,"100,083","116,462",Male Median Earnings
+    Computer systems analysts,196460,302606,Male Total Workers,"76,976","88,070",Male Median Earnings
+    Information security analysts,18742,87051,Male Total Workers,"91,695","102,738",Male Median Earnings
+    Computer programmers,69744,268176,Male Total Workers,"86,284","92,674",Male Median Earnings
+    Software developers,220621,1056304,Male Total Workers,"100,747","113,370",Male Median Earnings
+    Software quality assurance analysts and testers,35333,55312,Male Total Workers,"85,759","93,747",Male Median Earnings
+    Web developers,26501,65439,Male Total Workers,"61,589","74,794",Male Median Earnings
+    Web and digital interface designers,20364,30161,Male Total Workers,"58,559","64,910",Male Median Earnings
+    Computer support specialists,144095,438421,Male Total Workers,"57,047","62,882",Male Median Earnings
+    Database administrators and architects,37411,73915,Male Total Workers,"72,070","97,516",Male Median Earnings
+    Network and computer systems administrators,35282,168226,Male Total Workers,"70,809","78,198",Male Median Earnings
+    Computer network architects,7788,94051,Male Total Workers,"98,372","101,641",Male Median Earnings
+"    Computer occupations, all other",157572,481888,Male Total Workers,"64,688","73,927",Male Median Earnings
+    Actuaries,9636,19651,Male Total Workers,"114,494","130,529",Male Median Earnings
+    Mathematicians,469,1802,Male Total Workers,"95,352","125,047",Male Median Earnings
+    Operations research analysts,68834,70950,Male Total Workers,"78,407","91,086",Male Median Earnings
+    Statisticians,18973,21806,Male Total Workers,"86,856","98,628",Male Median Earnings
+    Other mathematical science occupations,35617,43453,Male Total Workers,"76,131","86,417",Male Median Earnings
+"    Architects, except landscape and naval",38800,120059,Male Total Workers,"74,800","92,252",Male Median Earnings
+    Landscape architects,8417,17368,Male Total Workers,"65,667","75,532",Male Median Earnings
+"    Surveyors, cartographers, and photogrammetrists",5319,24246,Male Total Workers,"58,122","70,129",Male Median Earnings
+    Aerospace engineers,14938,105551,Male Total Workers,"100,666","111,193",Male Median Earnings
+    Agricultural engineers,293,2359,Male Total Workers,"73,546","92,469",Male Median Earnings
+    Bioengineers and biomedical engineers,2684,11479,Male Total Workers,"86,128","94,944",Male Median Earnings
+    Chemical engineers,11265,51471,Male Total Workers,"97,317","109,245",Male Median Earnings
+    Civil engineers,51350,297296,Male Total Workers,"79,750","93,600",Male Median Earnings
+    Computer hardware engineers,6185,43150,Male Total Workers,"95,138","106,292",Male Median Earnings
+    Electrical and electronics engineers,18051,188374,Male Total Workers,"91,654","103,933",Male Median Earnings
+    Environmental engineers,8023,18866,Male Total Workers,"81,213","87,812",Male Median Earnings
+"    Industrial engineers, including health and safety",43222,171407,Male Total Workers,"79,935","86,384",Male Median Earnings
+    Marine engineers and naval architects,1026,10683,Male Total Workers,"85,659","90,662",Male Median Earnings
+    Materials engineers,5158,35036,Male Total Workers,"86,623","86,942",Male Median Earnings
+    Mechanical engineers,22950,246212,Male Total Workers,"86,653","91,429",Male Median Earnings
+"    Mining and geological engineers, including mining safety engineers",746,7173,Male Total Workers,"92,935","99,030",Male Median Earnings
+    Nuclear engineers,789,6051,Male Total Workers,"93,750","107,790",Male Median Earnings
+    Petroleum engineers,3502,19592,Male Total Workers,"121,844","139,634",Male Median Earnings
+"    Engineers, all other",70316,445535,Male Total Workers,"92,551","102,000",Male Median Earnings
+    Architectural and civil drafters,8850,37326,Male Total Workers,"52,155","57,805",Male Median Earnings
+    Other drafters,15025,70352,Male Total Workers,"50,420","60,354",Male Median Earnings
+    Electrical and electronic engineering technologists and technicians,7790,86786,Male Total Workers,"52,056","64,635",Male Median Earnings
+"    Other engineering technologists and technicians, except drafters",54091,228258,Male Total Workers,"49,965","61,193",Male Median Earnings
+    Surveying and mapping technicians,3653,49818,Male Total Workers,"46,291","53,129",Male Median Earnings
+    Agricultural and food scientists,8438,14794,Male Total Workers,"63,191","75,140",Male Median Earnings
+    Biological scientists,35580,39479,Male Total Workers,"66,101","68,104",Male Median Earnings
+    Conservation scientists and foresters,5035,14332,Male Total Workers,"60,562","62,964",Male Median Earnings
+    Medical scientists,66052,56869,Female Total Workers,"75,185","86,781",Male Median Earnings
+"    Life scientists, all other",2356,2376,Male Total Workers,"66,400","73,594",Male Median Earnings
+    Astronomers and physicists,2034,9996,Male Total Workers,"79,730","118,958",Male Median Earnings
+    Atmospheric and space scientists,2076,7291,Male Total Workers,"64,714","92,233",Male Median Earnings
+    Chemists and materials scientists,34205,51985,Male Total Workers,"68,441","83,234",Male Median Earnings
+"    Environmental scientists and specialists, including health",12828,15906,Male Total Workers,"66,443","72,843",Male Median Earnings
+"    Geoscientists and hydrologists, except geographers",9575,28683,Male Total Workers,"74,901","90,686",Male Median Earnings
+"    Physical scientists, all other",99142,137103,Male Total Workers,"74,981","95,899",Male Median Earnings
+    Economists,7951,17203,Male Total Workers,"102,712","120,280",Male Median Earnings
+    Survey researchers,1035,881,Female Total Workers,"63,267","77,216",Male Median Earnings
+    Clinical and counseling psychologists,11402,5751,Female Total Workers,"77,339","100,402",Male Median Earnings
+    School psychologists,23552,5556,Female Total Workers,"73,026","83,179",Male Median Earnings
+    Other psychologists,59457,28296,Female Total Workers,"76,373","99,331",Male Median Earnings
+    Sociologists,1529,1308,Female Total Workers,"67,625","89,440",Male Median Earnings
+    Urban and regional planners,11104,14308,Male Total Workers,"74,918","78,080",Male Median Earnings
+    Miscellaneous social scientists and related workers,13362,15013,Male Total Workers,"65,536","73,712",Male Median Earnings
+    Agricultural and food science technicians,12111,20435,Male Total Workers,"44,555","52,421",Male Median Earnings
+    Biological technicians,10415,10876,Male Total Workers,"50,192","52,776",Male Median Earnings
+    Chemical technicians,18990,38354,Male Total Workers,"50,480","57,002",Male Median Earnings
+    Environmental science and geoscience technicians,6000,14669,Male Total Workers,"53,488","65,112",Male Median Earnings
+    Nuclear technicians,562,2461,Male Total Workers,"74,083","89,476",Male Median Earnings
+    Social science research assistants,2266,1570,Female Total Workers,"50,017","67,656",Male Median Earnings
+"    Other life, physical, and social science technicians",62931,68358,Male Total Workers,"43,797","48,867",Male Median Earnings
+    Occupational health and safety specialists and technicians,20269,41528,Male Total Workers,"59,203","71,323",Male Median Earnings
+    Substance abuse and behavioral disorder counselors,49931,23244,Female Total Workers,"44,486","44,200",Female Median Earnings
+"    Educational, guidance, and career counselors and advisors",196967,60180,Female Total Workers,"51,661","51,619",Female Median Earnings
+    Marriage and family therapists,16737,4586,Female Total Workers,"50,147","51,610",Male Median Earnings
+    Mental health counselors,61832,19548,Female Total Workers,"48,971","51,788",Male Median Earnings
+    Rehabilitation counselors,15223,7316,Female Total Workers,"50,914","50,579",Female Median Earnings
+"    Counselors, all other",92706,47245,Female Total Workers,"42,835","46,269",Male Median Earnings
+"    Child, family, and school social workers",68551,13969,Female Total Workers,"46,494","50,153",Male Median Earnings
+    Healthcare social workers,64294,19791,Female Total Workers,"48,469","47,512",Female Median Earnings
+    Mental health and substance abuse social workers,18360,5068,Female Total Workers,"52,799","63,304",Male Median Earnings
+"    Social workers, all other",434034,93354,Female Total Workers,"48,674","49,414",Male Median Earnings
+    Probation officers and correctional treatment specialists,45762,37342,Female Total Workers,"51,038","53,389",Male Median Earnings
+    Social and human service assistants,132949,37610,Female Total Workers,"39,875","42,244",Male Median Earnings
+    Other community and social service specialists,44529,22824,Female Total Workers,"47,509","52,375",Male Median Earnings
+    Clergy,55040,296489,Male Total Workers,"44,892","50,528",Male Median Earnings
+"    Directors, religious activities and education",25406,22564,Female Total Workers,"45,223","53,916",Male Median Earnings
+"    Religious workers, all other",21470,19193,Female Total Workers,"35,485","42,775",Male Median Earnings
+    Lawyers,347073,592367,Male Total Workers,"115,080","149,180",Male Median Earnings
+    Judicial law clerks,9548,4434,Female Total Workers,"56,465","63,867",Male Median Earnings
+"    Judges, magistrates, and other judicial workers",27775,33039,Male Total Workers,"87,321","135,100",Male Median Earnings
+    Paralegals and legal assistants,292096,48180,Female Total Workers,"51,883","52,800",Male Median Earnings
+"    Title examiners, abstractors, and searchers",51877,20976,Female Total Workers,"46,815","70,997",Male Median Earnings
+"    Legal support workers, all other",26842,15814,Female Total Workers,"53,715","61,439",Male Median Earnings
+    Postsecondary teachers,419466,471449,Male Total Workers,"68,321","81,347",Male Median Earnings
+    Preschool and kindergarten teachers,408416,11905,Female Total Workers,"28,235","31,493",Male Median Earnings
+    Elementary and middle school teachers,1856268,509739,Female Total Workers,"52,826","57,823",Male Median Earnings
+    Secondary school teachers,392830,297217,Female Total Workers,"55,770","60,554",Male Median Earnings
+    Special education teachers,195977,35015,Female Total Workers,"52,948","53,879",Male Median Earnings
+    Tutors,31433,21942,Female Total Workers,"41,093","53,035",Male Median Earnings
+    Other teachers and instructors,177354,155385,Female Total Workers,"43,407","55,721",Male Median Earnings
+"    Archivists, curators, and museum technicians",25861,19515,Female Total Workers,"54,022","60,271",Male Median Earnings
+    Librarians and media collections specialists,103909,25504,Female Total Workers,"54,136","60,453",Male Median Earnings
+    Library technicians,10306,3712,Female Total Workers,"30,835","40,803",Male Median Earnings
+    Teaching assistants,453799,93042,Female Total Workers,"24,172","32,642",Male Median Earnings
+    Other educational instruction and library workers,61664,21761,Female Total Workers,"57,518","64,788",Male Median Earnings
+    Artists and related workers,52066,83810,Male Total Workers,"42,367","56,776",Male Median Earnings
+    Commercial and industrial designers,4281,11591,Male Total Workers,"57,828","62,697",Male Median Earnings
+    Fashion designers,13660,4038,Female Total Workers,"56,408","68,011",Male Median Earnings
+    Floral designers,30681,6031,Female Total Workers,"34,827","44,995",Male Median Earnings
+    Graphic designers,107639,119230,Male Total Workers,"50,251","58,075",Male Median Earnings
+    Interior designers,52793,12859,Female Total Workers,"53,646","61,392",Male Median Earnings
+    Merchandise displayers and window trimmers,6837,5860,Female Total Workers,"37,170","43,514",Male Median Earnings
+    Other designers,100839,166312,Male Total Workers,"56,742","69,725",Male Median Earnings
+    Actors,5598,8032,Male Total Workers,"39,120","53,401",Male Median Earnings
+    Producers and directors,49661,84716,Male Total Workers,"66,394","73,473",Male Median Earnings
+    Athletes and sports competitors,2186,18906,Male Total Workers,"41,572","51,043",Male Median Earnings
+    Coaches and scouts,30510,68870,Male Total Workers,"45,183","52,288",Male Median Earnings
+"    Umpires, referees, and other sports officials",992,8317,Male Total Workers,"44,980","50,623",Male Median Earnings
+    Dancers and choreographers,4965,1655,Female Total Workers,"34,772","47,406",Male Median Earnings
+    Music directors and composers,5083,15599,Male Total Workers,"46,136","55,934",Male Median Earnings
+    Musicians and singers,9782,36716,Male Total Workers,"41,230","43,985",Male Median Earnings
+"    Disc jockeys, except radio",290,2772,Male Total Workers,"21,250","32,141",Male Median Earnings
+"    Entertainers and performers, sports and related workers, all other",6992,10656,Male Total Workers,"31,947","45,851",Male Median Earnings
+    Broadcast announcers and radio disc jockeys,5234,14803,Male Total Workers,"50,329","51,514",Male Median Earnings
+"    News analysts, reporters, and journalists",25810,32648,Male Total Workers,"54,550","62,608",Male Median Earnings
+    Public relations specialists,70022,40071,Female Total Workers,"67,560","82,019",Male Median Earnings
+    Editors,57893,54370,Female Total Workers,"59,421","64,086",Male Median Earnings
+    Technical writers,27781,22104,Female Total Workers,"72,601","75,678",Male Median Earnings
+    Writers and authors,76833,61826,Female Total Workers,"57,193","63,470",Male Median Earnings
+    Interpreters and translators,33306,16610,Female Total Workers,"43,274","51,448",Male Median Earnings
+    Court reporters and simultaneous captioners,20873,2464,Female Total Workers,"56,379","74,439",Male Median Earnings
+"    Media and communication workers, all other",6443,7892,Male Total Workers,"54,331","61,155",Male Median Earnings
+"    Broadcast, sound, and lighting technicians",5781,55793,Male Total Workers,"49,574","56,875",Male Median Earnings
+    Photographers,34511,53292,Male Total Workers,"35,360","48,310",Male Median Earnings
+"    Television, video, and film camera operators and editors",8012,40335,Male Total Workers,"54,261","58,666",Male Median Earnings
+"    Media and communication equipment workers, all other",126,1398,Male Total Workers,"88,889","68,846",Female Median Earnings
+    Chiropractors,9896,31978,Male Total Workers,"60,643","80,787",Male Median Earnings
+    Dentists,30723,71125,Male Total Workers,"138,925","178,857",Male Median Earnings
+    Dietitians and nutritionists,63728,7759,Female Total Workers,"55,426","55,088",Female Median Earnings
+    Optometrists,12239,17159,Male Total Workers,"108,436","132,164",Male Median Earnings
+    Pharmacists,127727,104992,Female Total Workers,"124,121","130,776",Male Median Earnings
+    Emergency medicine physicians,3260,8102,Male Total Workers,"235,201","250,000+",Male Median Earnings
+    Radiologists,3635,13485,Male Total Workers,"230,903","250,000+",Male Median Earnings
+    Other physicians,263638,435854,Male Total Workers,"183,846","250,000+",Male Median Earnings
+    Surgeons,7590,37513,Male Total Workers,"208,150","250,000+",Male Median Earnings
+    Physician assistants,61040,34269,Female Total Workers,"105,783","122,715",Male Median Earnings
+    Podiatrists,1847,6071,Male Total Workers,"111,150","162,611",Male Median Earnings
+    Audiologists,11062,2528,Female Total Workers,"78,736","87,813",Male Median Earnings
+    Occupational therapists,65469,10751,Female Total Workers,"73,461","83,257",Male Median Earnings
+    Physical therapists,110317,72179,Female Total Workers,"78,475","88,045",Male Median Earnings
+    Radiation therapists,8793,4075,Female Total Workers,"80,451","84,544",Male Median Earnings
+    Recreational therapists,7536,2326,Female Total Workers,"42,615","40,976",Female Median Earnings
+    Respiratory therapists,57017,35107,Female Total Workers,"58,446","65,146",Male Median Earnings
+    Speech-language pathologists,97352,5655,Female Total Workers,"68,057","72,319",Male Median Earnings
+    Exercise physiologists,2226,1621,Female Total Workers,"44,101","49,463",Male Median Earnings
+"    Therapists, all other",90850,25978,Female Total Workers,"52,067","55,327",Male Median Earnings
+    Veterinarians,42686,27262,Female Total Workers,"95,469","113,412",Male Median Earnings
+    Registered nurses,2131049,315444,Female Total Workers,"69,121","75,185",Male Median Earnings
+    Nurse anesthetists,15936,12987,Female Total Workers,"172,490","193,253",Male Median Earnings
+    Nurse midwives,4385,7,Female Total Workers,"104,943",-,Male Median Earnings
+    Nurse practitioners,132842,18426,Female Total Workers,"104,986","116,001",Male Median Earnings
+    Acupuncturists,5250,4346,Female Total Workers,"56,522","66,641",Male Median Earnings
+"    Healthcare diagnosing or treating practitioners, all other",4036,1306,Female Total Workers,"51,407","39,026",Female Median Earnings
+    Clinical laboratory technologists and technicians,180380,73945,Female Total Workers,"49,877","52,616",Male Median Earnings
+    Dental hygienists,73261,6967,Female Total Workers,"60,453","87,633",Male Median Earnings
+    Cardiovascular technologists and technicians,18737,12169,Female Total Workers,"51,953","70,564",Male Median Earnings
+    Diagnostic medical sonographers,46314,15457,Female Total Workers,"65,954","77,335",Male Median Earnings
+    Radiologic technologists and technicians,105448,57364,Female Total Workers,"56,734","66,816",Male Median Earnings
+    Magnetic resonance imaging technologists,16746,16843,Male Total Workers,"65,672","78,094",Male Median Earnings
+    Nuclear medicine technologists and medical dosimetrists,10111,10188,Male Total Workers,"76,565","91,909",Male Median Earnings
+    Emergency medical technicians,34764,59873,Male Total Workers,"36,681","41,215",Male Median Earnings
+    Paramedics,22598,60750,Male Total Workers,"49,580","55,609",Male Median Earnings
+    Pharmacy technicians,198878,56863,Female Total Workers,"33,662","37,689",Male Median Earnings
+    Psychiatric technicians,28320,15403,Female Total Workers,"33,341","34,472",Male Median Earnings
+    Surgical technologists,52789,20374,Female Total Workers,"41,403","46,603",Male Median Earnings
+    Veterinary technologists and technicians,80987,11532,Female Total Workers,"33,019","34,854",Male Median Earnings
+    Dietetic technicians and ophthalmic medical technicians,19001,4212,Female Total Workers,"30,234","31,406",Male Median Earnings
+    Licensed practical and licensed vocational nurses,487823,70214,Female Total Workers,"41,747","45,176",Male Median Earnings
+    Medical records specialists,135502,13447,Female Total Workers,"42,290","44,093",Male Median Earnings
+"    Opticians, dispensing",34281,13398,Female Total Workers,"36,800","51,253",Male Median Earnings
+    Miscellaneous health technologists and technicians,70578,42779,Female Total Workers,"41,134","50,467",Male Median Earnings
+    Other healthcare practitioners and technical occupations,44823,25855,Female Total Workers,"53,956","63,007",Male Median Earnings
+    Home health aides,227069,30626,Female Total Workers,"26,951","30,807",Male Median Earnings
+    Personal care aides,583352,140582,Female Total Workers,"25,825","29,013",Male Median Earnings
+    Nursing assistants,807741,112406,Female Total Workers,"28,288","31,748",Male Median Earnings
+    Orderlies and psychiatric aides,19466,24206,Male Total Workers,"30,458","32,261",Male Median Earnings
+    Occupational therapy assistants and aides,21556,4639,Female Total Workers,"45,871","50,961",Male Median Earnings
+    Physical therapist assistants and aides,41864,21622,Female Total Workers,"47,486","51,113",Male Median Earnings
+    Massage therapists,46603,15370,Female Total Workers,"32,442","34,309",Male Median Earnings
+    Dental assistants,167480,13020,Female Total Workers,"33,998","36,885",Male Median Earnings
+    Medical assistants,381697,35689,Female Total Workers,"32,350","36,647",Male Median Earnings
+    Medical transcriptionists,20323,3066,Female Total Workers,"32,393","24,355",Female Median Earnings
+    Pharmacy aides,17190,5852,Female Total Workers,"32,348","45,401",Male Median Earnings
+    Veterinary assistants and laboratory animal caretakers,29180,6374,Female Total Workers,"27,136","34,826",Male Median Earnings
+    Phlebotomists,72898,13006,Female Total Workers,"32,830","34,456",Male Median Earnings
+    Other healthcare support workers,72397,38953,Female Total Workers,"33,173","39,639",Male Median Earnings
+    First-line supervisors of correctional officers,13209,33465,Male Total Workers,"50,723","60,013",Male Median Earnings
+    First-line supervisors of police and detectives,14748,87971,Male Total Workers,"72,479","88,734",Male Median Earnings
+    First-line supervisors of firefighting and prevention workers,1966,45539,Male Total Workers,"94,044","97,118",Male Median Earnings
+    First-line supervisors of security workers,15327,46073,Male Total Workers,"49,998","56,009",Male Median Earnings
+"    First-line supervisors of protective service workers, all other",2276,6533,Male Total Workers,"57,375","57,360",Female Median Earnings
+    Firefighters,12220,276714,Male Total Workers,"52,149","71,886",Male Median Earnings
+    Fire inspectors,2659,19309,Male Total Workers,"57,113","63,356",Male Median Earnings
+    Bailiffs,8143,16211,Male Total Workers,"48,388","53,208",Male Median Earnings
+    Correctional officers and jailers,94607,254395,Male Total Workers,"41,488","51,581",Male Median Earnings
+    Detectives and criminal investigators,32642,95961,Male Total Workers,"67,335","87,183",Male Median Earnings
+    Fish and game wardens,762,4993,Male Total Workers,"42,569","53,669",Male Median Earnings
+    Parking enforcement workers,2693,4146,Male Total Workers,"42,561","40,972",Female Median Earnings
+    Police officers,97117,630868,Male Total Workers,"60,621","70,038",Male Median Earnings
+    Animal control workers,4236,5035,Male Total Workers,"38,408","40,791",Male Median Earnings
+    Private detectives and investigators,37462,42964,Male Total Workers,"52,329","64,435",Male Median Earnings
+    Security guards and gambling surveillance officers,157618,512669,Male Total Workers,"31,209","33,958",Male Median Earnings
+    Crossing guards and flaggers,4942,8568,Male Total Workers,"32,893","35,223",Male Median Earnings
+    Transportation security screeners,12561,22765,Male Total Workers,"44,371","45,725",Male Median Earnings
+    School bus monitors,5983,1248,Female Total Workers,"24,906","16,875",Female Median Earnings
+    Other protective service workers,8325,17095,Male Total Workers,"30,358","37,466",Male Median Earnings
+    Chefs and head cooks,72543,286479,Male Total Workers,"30,854","36,760",Male Median Earnings
+    First-line supervisors of food preparation and serving workers,214229,181612,Female Total Workers,"25,958","32,221",Male Median Earnings
+    Cooks,432546,720749,Male Total Workers,"21,837","25,427",Male Median Earnings
+    Food preparation workers,194465,152855,Female Total Workers,"21,776","23,899",Male Median Earnings
+    Bartenders,108487,100948,Female Total Workers,"27,491","34,446",Male Median Earnings
+    Fast food and counter workers,103694,62166,Female Total Workers,"21,317","21,808",Male Median Earnings
+    Waiters and waitresses,440339,245403,Female Total Workers,"22,453","28,036",Male Median Earnings
+"    Food servers, nonrestaurant",50123,27813,Female Total Workers,"25,303","30,293",Male Median Earnings
+    Dining room and cafeteria attendants and bartender helpers,35233,49103,Male Total Workers,"20,807","24,907",Male Median Earnings
+    Dishwashers,20242,81357,Male Total Workers,"20,618","21,632",Male Median Earnings
+"    Hosts and hostesses, restaurant, lounge, and coffee shop",37799,8928,Female Total Workers,"21,569","25,853",Male Median Earnings
+"    Food preparation and serving related workers, all other",2625,3059,Male Total Workers,"24,207","27,892",Male Median Earnings
+    First-line supervisors of housekeeping and janitorial workers,68206,124559,Male Total Workers,"31,508","45,945",Male Median Earnings
+"    First-line supervisors of landscaping, lawn service, and groundskeeping workers",7192,124492,Male Total Workers,"34,553","44,377",Male Median Earnings
+    Janitors and building cleaners,413389,1116597,Male Total Workers,"25,162","33,168",Male Median Earnings
+    Maids and housekeeping cleaners,604538,117916,Female Total Workers,"22,864","27,786",Male Median Earnings
+    Pest control workers,2963,67106,Male Total Workers,"32,186","40,524",Male Median Earnings
+    Landscaping and groundskeeping workers,34093,653605,Male Total Workers,"26,668","28,737",Male Median Earnings
+    Tree trimmers and pruners,1622,59798,Male Total Workers,"30,776","33,014",Male Median Earnings
+    Other grounds maintenance workers,1426,23187,Male Total Workers,"25,812","30,242",Male Median Earnings
+    Supervisors of personal care and service workers,47532,33715,Female Total Workers,"36,330","45,532",Male Median Earnings
+    Animal trainers,17963,14252,Female Total Workers,"27,308","36,829",Male Median Earnings
+    Animal caretakers,95061,37212,Female Total Workers,"26,702","31,780",Male Median Earnings
+    Gambling services workers,28564,34768,Male Total Workers,"40,300","42,742",Male Median Earnings
+"    Ushers, lobby attendants, and ticket takers",3169,4401,Male Total Workers,"25,152","22,363",Female Median Earnings
+    Other entertainment attendants and related workers,24552,32354,Male Total Workers,"25,050","28,970",Male Median Earnings
+"    Embalmers, crematory operators and funeral attendants",2011,5744,Male Total Workers,"33,561","34,748",Male Median Earnings
+"    Morticians, undertakers, and funeral arrangers",9055,24339,Male Total Workers,"43,008","59,407",Male Median Earnings
+    Barbers,13304,60836,Male Total Workers,"25,367","29,129",Male Median Earnings
+"    Hairdressers, hairstylists, and cosmetologists",361331,45377,Female Total Workers,"27,486","35,669",Male Median Earnings
+    Manicurists and pedicurists,117929,31625,Female Total Workers,"24,211","26,196",Male Median Earnings
+    Skincare specialists,33408,691,Female Total Workers,"30,190","27,021",Female Median Earnings
+    Other personal appearance workers,10750,1383,Female Total Workers,"29,638","36,053",Male Median Earnings
+"    Baggage porters, bellhops, and concierges",15243,48880,Male Total Workers,"31,403","36,349",Male Median Earnings
+    Tour and travel guides,7213,12934,Male Total Workers,"30,379","32,486",Male Median Earnings
+    Childcare workers,471020,28396,Female Total Workers,"22,655","25,784",Male Median Earnings
+    Exercise trainers and group fitness instructors,44131,42221,Female Total Workers,"33,892","40,337",Male Median Earnings
+    Recreation workers,62686,37256,Female Total Workers,"31,643","37,681",Male Median Earnings
+    Residential advisors,17550,9573,Female Total Workers,"31,618","31,369",Female Median Earnings
+"    Personal care and service workers, all other",36982,33546,Female Total Workers,"29,065","30,500",Male Median Earnings
+    First-line supervisors of retail sales workers,1132888,1480669,Male Total Workers,"36,969","50,612",Male Median Earnings
+    First-line supervisors of non-retail sales workers,333214,714965,Male Total Workers,"61,759","71,396",Male Median Earnings
+    Cashiers,689787,289856,Female Total Workers,"22,238","24,871",Male Median Earnings
+    Counter and rental clerks,19137,32014,Male Total Workers,"28,932","39,646",Male Median Earnings
+    Parts salespersons,11296,82641,Male Total Workers,"32,904","40,792",Male Median Earnings
+    Retail salespersons,633799,1019516,Male Total Workers,"29,639","41,800",Male Median Earnings
+    Advertising sales agents,60855,60019,Female Total Workers,"61,635","71,015",Male Median Earnings
+    Insurance sales agents,225934,239837,Male Total Workers,"45,686","68,058",Male Median Earnings
+"    Securities, commodities, and financial services sales agents",58019,142624,Male Total Workers,"67,097","116,924",Male Median Earnings
+    Travel agents,39588,10683,Female Total Workers,"43,692","46,993",Male Median Earnings
+"    Sales representatives of services, except advertising, insurance, financial services, and travel",164587,377773,Male Total Workers,"60,740","77,195",Male Median Earnings
+"    Sales representatives, wholesale and manufacturing",304896,869631,Male Total Workers,"60,772","74,574",Male Median Earnings
+"    Models, demonstrators, and product promoters",8162,5377,Female Total Workers,"29,700","43,221",Male Median Earnings
+    Real estate brokers and sales agents,308809,297253,Female Total Workers,"54,343","74,041",Male Median Earnings
+    Sales engineers,3488,37429,Male Total Workers,"88,538","113,598",Male Median Earnings
+    Telemarketers,17249,11907,Female Total Workers,"26,760","31,999",Male Median Earnings
+"    Door-to-door sales workers, news and street vendors, and related workers",20818,24427,Male Total Workers,"30,591","37,826",Male Median Earnings
+"    Sales and related workers, all other",95927,117007,Male Total Workers,"48,520","67,901",Male Median Earnings
+    First-line supervisors of office and administrative support workers,695160,407273,Female Total Workers,"48,680","60,883",Male Median Earnings
+"    Switchboard operators, including answering service",12385,3391,Female Total Workers,"32,606","41,301",Male Median Earnings
+    Telephone operators,17211,7601,Female Total Workers,"30,707","38,829",Male Median Earnings
+"    Communications equipment operators, all other",4157,10470,Male Total Workers,"45,376","57,209",Male Median Earnings
+    Bill and account collectors,89220,34992,Female Total Workers,"36,721","40,149",Male Median Earnings
+    Billing and posting clerks,351143,48499,Female Total Workers,"37,267","42,977",Male Median Earnings
+"    Bookkeeping, accounting, and auditing clerks",735547,112659,Female Total Workers,"41,688","45,486",Male Median Earnings
+    Gambling cage workers,4417,2353,Female Total Workers,"31,086","36,800",Male Median Earnings
+    Payroll and timekeeping clerks,114898,16164,Female Total Workers,"44,738","50,255",Male Median Earnings
+    Procurement clerks,21350,15589,Female Total Workers,"53,471","67,172",Male Median Earnings
+    Tellers,172187,28410,Female Total Workers,"29,207","30,145",Male Median Earnings
+"    Financial clerks, all other",66045,48810,Female Total Workers,"49,064","86,419",Male Median Earnings
+    Brokerage clerks,4933,1820,Female Total Workers,"47,003","59,588",Male Median Earnings
+    Correspondence clerks,3119,1276,Female Total Workers,"46,510","48,720",Male Median Earnings
+"    Court, municipal, and license clerks",55597,13741,Female Total Workers,"40,324","46,240",Male Median Earnings
+"    Credit authorizers, checkers, and clerks",25881,9103,Female Total Workers,"40,443","59,608",Male Median Earnings
+    Customer service representatives,1249177,650525,Female Total Workers,"35,261","40,275",Male Median Earnings
+"    Eligibility interviewers, government programs",59625,14032,Female Total Workers,"43,516","50,863",Male Median Earnings
+    File clerks,94082,26528,Female Total Workers,"36,511","41,383",Male Median Earnings
+"    Hotel, motel, and resort desk clerks",50670,29863,Female Total Workers,"24,613","26,708",Male Median Earnings
+"    Interviewers, except eligibility and loan",83553,20291,Female Total Workers,"33,546","37,601",Male Median Earnings
+"    Library assistants, clerical",27949,6558,Female Total Workers,"31,636","35,639",Male Median Earnings
+    Loan interviewers and clerks,88129,25392,Female Total Workers,"45,133","49,961",Male Median Earnings
+    New accounts clerks,10256,3645,Female Total Workers,"38,784","47,380",Male Median Earnings
+    Order clerks,44936,39116,Female Total Workers,"34,398","36,829",Male Median Earnings
+"    Human resources assistants, except payroll and timekeeping",35278,8368,Female Total Workers,"42,303","48,652",Male Median Earnings
+    Receptionists and information clerks,646319,72256,Female Total Workers,"30,685","32,922",Male Median Earnings
+    Reservation and transportation ticket agents and travel clerks,49829,44332,Female Total Workers,"39,328","45,816",Male Median Earnings
+"    Information and record clerks, all other",61957,18852,Female Total Workers,"39,170","48,890",Male Median Earnings
+    Cargo and freight agents,6624,12808,Male Total Workers,"41,863","46,109",Male Median Earnings
+    Couriers and messengers,27745,152937,Male Total Workers,"32,458","40,555",Male Median Earnings
+    Public safety telecommunicators,57911,27189,Female Total Workers,"41,921","48,593",Male Median Earnings
+"    Dispatchers, except police, fire, and ambulance",77013,83181,Male Total Workers,"37,221","47,141",Male Median Earnings
+"    Meter readers, utilities",2482,17926,Male Total Workers,"38,889","41,494",Male Median Earnings
+    Postal service clerks,54049,47412,Female Total Workers,"54,161","60,618",Male Median Earnings
+    Postal service mail carriers,105143,179460,Male Total Workers,"54,618","61,344",Male Median Earnings
+"    Postal service mail sorters, processors, and processing machine operators",24954,25464,Male Total Workers,"51,783","60,099",Male Median Earnings
+"    Production, planning, and expediting clerks",157658,123326,Female Total Workers,"43,771","64,101",Male Median Earnings
+"    Shipping, receiving, and inventory clerks",145218,325787,Male Total Workers,"31,701","35,402",Male Median Earnings
+"    Weighers, measurers, checkers, and samplers, recordkeeping",29793,36432,Male Total Workers,"35,297","41,377",Male Median Earnings
+    Executive secretaries and executive administrative assistants,178998,12665,Female Total Workers,"53,563","61,003",Male Median Earnings
+    Legal secretaries and administrative assistants,53604,2471,Female Total Workers,"45,940","51,817",Male Median Earnings
+    Medical secretaries and administrative assistants,61120,3338,Female Total Workers,"37,415","42,212",Male Median Earnings
+"    Secretaries and administrative assistants, except legal, medical, and executive",1712491,107072,Female Total Workers,"39,773","45,163",Male Median Earnings
+    Data entry keyers,162356,47875,Female Total Workers,"34,765","38,315",Male Median Earnings
+    Word processors and typists,110118,20405,Female Total Workers,"36,758","40,641",Male Median Earnings
+    Desktop publishers,532,878,Male Total Workers,"47,500","49,917",Male Median Earnings
+    Insurance claims and policy processing clerks,193330,47877,Female Total Workers,"39,610","44,727",Male Median Earnings
+"    Mail clerks and mail machine operators, except postal service",23017,24789,Male Total Workers,"30,578","34,478",Male Median Earnings
+"    Office clerks, general",721700,152155,Female Total Workers,"36,188","40,749",Male Median Earnings
+"    Office machine operators, except computer",13420,8723,Female Total Workers,"30,537","38,094",Male Median Earnings
+    Proofreaders and copy markers,3812,2418,Female Total Workers,"44,683","48,488",Male Median Earnings
+    Statistical assistants,12724,10650,Female Total Workers,"52,707","60,008",Male Median Earnings
+"    Office and administrative support workers, all other",354038,118862,Female Total Workers,"42,158","50,259",Male Median Earnings
+"    First-line supervisors of farming, fishing, and forestry workers",6554,42058,Male Total Workers,"36,842","46,731",Male Median Earnings
+    Agricultural inspectors,4774,7003,Male Total Workers,"51,536","51,715",Male Median Earnings
+    Animal breeders,1532,3020,Male Total Workers,"33,232","37,985",Male Median Earnings
+"    Graders and sorters, agricultural products",19533,13091,Female Total Workers,"22,418","29,988",Male Median Earnings
+    Miscellaneous agricultural workers,80202,386132,Male Total Workers,"22,162","30,428",Male Median Earnings
+    Fishing and hunting workers,1023,19340,Male Total Workers,"30,420","40,995",Male Median Earnings
+    Forest and conservation workers,1493,9463,Male Total Workers,"35,325","40,117",Male Median Earnings
+    Logging workers,1247,35371,Male Total Workers,"24,081","38,217",Male Median Earnings
+    First-line supervisors of construction trades and extraction workers,22604,640676,Male Total Workers,"47,802","63,036",Male Median Earnings
+    Boilermakers,151,11385,Male Total Workers,"80,408","62,256",Female Median Earnings
+"    Brickmasons, blockmasons, and stonemasons",732,94589,Male Total Workers,"41,100","39,898",Female Median Earnings
+    Carpenters,15229,857782,Male Total Workers,"32,564","40,603",Male Median Earnings
+"    Carpet, floor, and tile installers and finishers",1928,99722,Male Total Workers,"35,045","37,443",Male Median Earnings
+"    Cement masons, concrete finishers, and terrazzo workers",431,43996,Male Total Workers,"50,759","41,158",Female Median Earnings
+    Construction laborers,36486,1211103,Male Total Workers,"32,080","36,301",Male Median Earnings
+    Construction equipment operators,6687,290396,Male Total Workers,"40,327","50,352",Male Median Earnings
+"    Drywall installers, ceiling tile installers, and tapers",2644,98828,Male Total Workers,"34,258","35,481",Male Median Earnings
+    Electricians,14380,700892,Male Total Workers,"46,974","54,402",Male Median Earnings
+    Glaziers,978,36330,Male Total Workers,"36,157","43,117",Male Median Earnings
+    Insulation workers,1358,34395,Male Total Workers,"37,240","42,412",Male Median Earnings
+    Painters and paperhangers,21258,350396,Male Total Workers,"29,180","34,361",Male Median Earnings
+    Pipelayers,640,42168,Male Total Workers,"41,875","46,728",Male Median Earnings
+"    Plumbers, pipefitters, and steamfitters",7188,456017,Male Total Workers,"46,208","50,473",Male Median Earnings
+    Plasterers and stucco masons,224,19675,Male Total Workers,"28,150","36,477",Male Median Earnings
+    Reinforcing iron and rebar workers,98,5832,Male Total Workers,"50,476","41,106",Female Median Earnings
+    Roofers,2705,139919,Male Total Workers,"35,563","34,172",Female Median Earnings
+    Sheet metal workers,4435,97212,Male Total Workers,"36,805","47,299",Male Median Earnings
+    Structural iron and steel workers,1107,46375,Male Total Workers,"42,125","53,187",Male Median Earnings
+    Solar photovoltaic installers,526,10517,Male Total Workers,"38,245","38,167",Female Median Earnings
+"    Helpers, construction trades",979,25764,Male Total Workers,"28,770","30,348",Male Median Earnings
+    Construction and building inspectors,8919,72110,Male Total Workers,"46,986","61,972",Male Median Earnings
+    Elevator and escalator installers and repairers,510,25545,Male Total Workers,"72,639","87,404",Male Median Earnings
+    Fence erectors,410,20599,Male Total Workers,"42,574","33,731",Female Median Earnings
+    Hazardous materials removal workers,4579,17889,Male Total Workers,"30,929","46,252",Male Median Earnings
+    Highway maintenance workers,2554,79906,Male Total Workers,"35,851","41,979",Male Median Earnings
+    Rail-track laying and maintenance equipment operators,280,8017,Male Total Workers,"41,060","61,049",Male Median Earnings
+    Septic tank servicers and sewer pipe cleaners,137,8554,Male Total Workers,"29,688","44,913",Male Median Earnings
+    Miscellaneous construction and related workers,916,26724,Male Total Workers,"32,474","41,236",Male Median Earnings
+"    Derrick, rotary drill, and service unit operators, oil and gas",278,18898,Male Total Workers,"83,587","63,651",Female Median Earnings
+"    Excavating and loading machine and dragline operators, surface mining",89,8133,Male Total Workers,"21,701","51,093",Male Median Earnings
+"    Earth drillers, except oil and gas",306,18959,Male Total Workers,"68,389","51,745",Female Median Earnings
+"    Explosives workers, ordnance handling experts, and blasters",442,7741,Male Total Workers,"71,406","54,860",Female Median Earnings
+    Underground mining machine operators,891,37656,Male Total Workers,"61,024","65,641",Male Median Earnings
+"    Roustabouts, oil and gas",30,6288,Male Total Workers,"33,958","47,423",Male Median Earnings
+    Other extraction workers,1619,55950,Male Total Workers,"42,730","54,983",Male Median Earnings
+"    First-line supervisors of mechanics, installers, and repairers",16288,219327,Male Total Workers,"54,807","65,691",Male Median Earnings
+"    Computer, automated teller, and office machine repairers",12786,114793,Male Total Workers,"45,855","47,328",Male Median Earnings
+    Radio and telecommunications equipment installers and repairers,12417,124206,Male Total Workers,"47,010","59,276",Male Median Earnings
+    Avionics technicians,1164,12260,Male Total Workers,"44,763","62,183",Male Median Earnings
+"    Electric motor, power tool, and related repairers",925,18847,Male Total Workers,"31,033","52,237",Male Median Earnings
+"    Electrical and electronics installers and repairers, transportation equipment",142,1561,Male Total Workers,"29,337","61,528",Male Median Earnings
+"    Electrical and electronics repairers, industrial and utility",430,12235,Male Total Workers,"47,092","73,221",Male Median Earnings
+"    Electronic equipment installers and repairers, motor vehicles",317,6575,Male Total Workers,"41,339","39,093",Female Median Earnings
+    Audiovisual equipment installers and repairers,1305,28134,Male Total Workers,"34,345","45,652",Male Median Earnings
+    Security and fire alarm systems installers,1103,48825,Male Total Workers,"43,961","49,111",Male Median Earnings
+    Aircraft mechanics and service technicians,6985,134928,Male Total Workers,"54,648","66,741",Male Median Earnings
+    Automotive body and related repairers,2330,114581,Male Total Workers,"34,639","44,932",Male Median Earnings
+    Automotive glass installers and repairers,462,14556,Male Total Workers,"33,048","40,893",Male Median Earnings
+    Automotive service technicians and mechanics,11725,709102,Male Total Workers,"34,831","40,728",Male Median Earnings
+    Bus and truck mechanics and diesel engine specialists,3771,262816,Male Total Workers,"42,634","50,066",Male Median Earnings
+    Heavy vehicle and mobile equipment service technicians and mechanics,2858,202013,Male Total Workers,"43,833","54,576",Male Median Earnings
+    Small engine mechanics,465,31436,Male Total Workers,"31,569","36,112",Male Median Earnings
+"    Miscellaneous vehicle and mobile equipment mechanics, installers, and repairers",1275,58786,Male Total Workers,"33,487","31,691",Female Median Earnings
+    Control and valve installers and repairers,1105,18920,Male Total Workers,"66,913","57,370",Female Median Earnings
+"    Heating, air conditioning, and refrigeration mechanics and installers",5383,352683,Male Total Workers,"40,987","49,499",Male Median Earnings
+    Home appliance repairers,970,29785,Male Total Workers,"29,815","42,290",Male Median Earnings
+    Industrial and refractory machinery mechanics,10577,330597,Male Total Workers,"42,360","55,373",Male Median Earnings
+"    Maintenance and repair workers, general",18645,485507,Male Total Workers,"39,514","48,412",Male Median Earnings
+"    Maintenance workers, machinery",880,23175,Male Total Workers,"43,716","54,504",Male Median Earnings
+    Millwrights,625,37640,Male Total Workers,"48,603","66,369",Male Median Earnings
+    Electrical power-line installers and repairers,1638,106125,Male Total Workers,"51,997","80,513",Male Median Earnings
+    Telecommunications line installers and repairers,4542,116131,Male Total Workers,"55,731","53,901",Female Median Earnings
+    Precision instrument and equipment repairers,4762,44426,Male Total Workers,"40,141","55,050",Male Median Earnings
+    Wind turbine service technicians,45,4456,Male Total Workers,"109,063","60,382",Female Median Earnings
+"    Coin, vending, and amusement machine servicers and repairers",3035,20765,Male Total Workers,"32,924","39,680",Male Median Earnings
+    Commercial divers,180,2120,Male Total Workers,"39,009","52,921",Male Median Earnings
+    Locksmiths and safe repairers,888,20594,Male Total Workers,"33,418","45,518",Male Median Earnings
+    Manufactured building and mobile home installers,84,2815,Male Total Workers,"36,300","37,009",Male Median Earnings
+    Riggers,340,9314,Male Total Workers,"40,690","53,069",Male Median Earnings
+"    Helpers--installation, maintenance, and repair workers",687,12269,Male Total Workers,"30,981","30,479",Female Median Earnings
+"    Other installation, maintenance, and repair workers",9322,171215,Male Total Workers,"35,316","43,512",Male Median Earnings
+    First-line supervisors of production and operating workers,156186,645969,Male Total Workers,"44,547","61,204",Male Median Earnings
+"    Aircraft structure, surfaces, rigging, and systems assemblers",1081,3697,Male Total Workers,"36,094","52,400",Male Median Earnings
+"    Electrical, electronics, and electromechanical assemblers",50738,53669,Male Total Workers,"31,273","36,953",Male Median Earnings
+    Engine and other machine assemblers,1334,9004,Male Total Workers,"37,054","47,078",Male Median Earnings
+    Structural metal fabricators and fitters,914,21363,Male Total Workers,"36,250","47,996",Male Median Earnings
+    Other assemblers and fabricators,286792,506566,Male Total Workers,"31,198","37,242",Male Median Earnings
+    Bakers,75728,61753,Female Total Workers,"26,416","31,311",Male Median Earnings
+"    Butchers and other meat, poultry, and fish processing workers",44891,150382,Male Total Workers,"26,901","33,891",Male Median Earnings
+"    Food and tobacco roasting, baking, and drying machine operators and tenders",2127,6280,Male Total Workers,"27,213","37,296",Male Median Earnings
+    Food batchmakers,31568,26838,Female Total Workers,"27,303","37,108",Male Median Earnings
+    Food cooking machine operators and tenders,2543,3757,Male Total Workers,"23,143","34,308",Male Median Earnings
+"    Food processing workers, all other",38646,76479,Male Total Workers,"31,617","38,935",Male Median Earnings
+    Computer numerically controlled tool operators and programmers,12393,104311,Male Total Workers,"33,362","46,530",Male Median Earnings
+"    Forming machine setters, operators, and tenders, metal and plastic",3905,22824,Male Total Workers,"29,814","45,078",Male Median Earnings
+"    Cutting, punching, and press machine setters, operators, and tenders, metal and plastic",11364,56419,Male Total Workers,"31,332","38,006",Male Median Earnings
+"    Grinding, lapping, polishing, and buffing machine tool setters, operators, and tenders, metal and plastic",4464,32100,Male Total Workers,"32,162","39,006",Male Median Earnings
+"    Other machine tool setters, operators, and tenders, metal and plastic",1590,10301,Male Total Workers,"30,745","42,523",Male Median Earnings
+    Machinists,11854,294968,Male Total Workers,"38,393","51,134",Male Median Earnings
+"    Metal furnace operators, tenders, pourers, and casters",1725,18391,Male Total Workers,"39,092","47,952",Male Median Earnings
+"    Model makers and patternmakers, metal and plastic",545,4119,Male Total Workers,"47,902","60,349",Male Median Earnings
+"    Molders and molding machine setters, operators, and tenders, metal and plastic",4935,27662,Male Total Workers,"31,580","41,358",Male Median Earnings
+    Tool and die makers,1064,49383,Male Total Workers,"42,621","60,838",Male Median Earnings
+"    Welding, soldering, and brazing workers",26513,467640,Male Total Workers,"33,333","44,448",Male Median Earnings
+    Other metal workers and plastic workers,73759,284263,Male Total Workers,"31,296","40,910",Male Median Earnings
+    Prepress technicians and workers,7145,10843,Male Total Workers,"33,626","45,262",Male Median Earnings
+    Printing press operators,27208,104034,Male Total Workers,"31,001","42,398",Male Median Earnings
+    Print binding and finishing workers,4936,8470,Male Total Workers,"29,484","39,182",Male Median Earnings
+    Laundry and dry-cleaning workers,61816,37023,Female Total Workers,"22,298","27,803",Male Median Earnings
+"    Pressers, textile, garment, and related materials",11335,8987,Female Total Workers,"21,622","31,396",Male Median Earnings
+    Sewing machine operators,81008,33270,Female Total Workers,"25,089","29,937",Male Median Earnings
+    Shoe and leather workers,2337,6553,Male Total Workers,"26,316","30,132",Male Median Earnings
+"    Tailors, dressmakers, and sewers",28328,11231,Female Total Workers,"28,053","32,379",Male Median Earnings
+"    Textile machine setters, operators, and tenders",9345,8950,Female Total Workers,"28,229","29,930",Male Median Earnings
+    Upholsterers,4244,19833,Male Total Workers,"28,912","35,544",Male Median Earnings
+"    Other textile, apparel, and furnishings workers",5903,7951,Male Total Workers,"32,205","35,440",Male Median Earnings
+    Cabinetmakers and bench carpenters,2736,40974,Male Total Workers,"30,071","37,618",Male Median Earnings
+    Furniture finishers,1675,6936,Male Total Workers,"29,518","37,761",Male Median Earnings
+"    Sawing machine setters, operators, and tenders, wood",2432,21658,Male Total Workers,"27,029","31,558",Male Median Earnings
+"    Woodworking machine setters, operators, and tenders, except sawing",2930,12208,Male Total Workers,"26,886","32,398",Male Median Earnings
+    Other woodworkers,1369,20182,Male Total Workers,"31,123","36,959",Male Median Earnings
+"    Power plant operators, distributors, and dispatchers",3364,41023,Male Total Workers,"68,396","99,891",Male Median Earnings
+    Stationary engineers and boiler operators,3274,79619,Male Total Workers,"70,926","65,168",Female Median Earnings
+    Water and wastewater treatment plant and system operators,4642,83958,Male Total Workers,"50,269","52,694",Male Median Earnings
+    Miscellaneous plant and system operators,3050,38699,Male Total Workers,"65,956","72,163",Male Median Earnings
+"    Chemical processing machine setters, operators, and tenders",5781,50880,Male Total Workers,"43,364","52,936",Male Median Earnings
+"    Crushing, grinding, polishing, mixing, and blending workers",8676,62665,Male Total Workers,"32,170","41,165",Male Median Earnings
+    Cutting workers,9549,38848,Male Total Workers,"27,146","34,521",Male Median Earnings
+"    Extruding, forming, pressing, and compacting machine setters, operators, and tenders",3801,19119,Male Total Workers,"29,514","40,155",Male Median Earnings
+"    Furnace, kiln, oven, drier, and kettle operators and tenders",1512,7342,Male Total Workers,"33,443","50,128",Male Median Earnings
+"    Inspectors, testers, sorters, samplers, and weighers",244899,421034,Male Total Workers,"35,560","50,580",Male Median Earnings
+    Jewelers and precious stone and metal workers,9307,16466,Male Total Workers,"31,896","40,728",Male Median Earnings
+    Dental and ophthalmic laboratory technicians and medical appliance technicians,30891,30937,Male Total Workers,"36,160","44,488",Male Median Earnings
+    Packaging and filling machine operators and tenders,104084,95628,Female Total Workers,"27,113","32,761",Male Median Earnings
+    Painting workers,13470,110920,Male Total Workers,"30,553","41,546",Male Median Earnings
+    Photographic process workers and processing machine operators,6461,11762,Male Total Workers,"36,086","60,315",Male Median Earnings
+    Adhesive bonding machine operators and tenders,3163,5217,Male Total Workers,"26,867","38,053",Male Median Earnings
+    Etchers and engravers,1858,4314,Male Total Workers,"32,500","36,305",Male Median Earnings
+"    Molders, shapers, and casters, except metal and plastic",2972,19170,Male Total Workers,"29,211","38,202",Male Median Earnings
+"    Paper goods machine setters, operators, and tenders",4686,13632,Male Total Workers,"31,949","49,366",Male Median Earnings
+    Tire builders,1377,10561,Male Total Workers,"40,411","49,659",Male Median Earnings
+    Helpers--production workers,7007,22456,Male Total Workers,"27,390","31,918",Male Median Earnings
+    Other production equipment operators and tenders,2080,6022,Male Total Workers,"27,338","41,229",Male Median Earnings
+    Other production workers,264179,711172,Male Total Workers,"30,394","40,758",Male Median Earnings
+    Supervisors of transportation and material moving workers,50994,184265,Male Total Workers,"41,596","54,919",Male Median Earnings
+    Aircraft pilots and flight engineers,6158,101277,Male Total Workers,"92,937","119,533",Male Median Earnings
+    Air traffic controllers and airfield operations specialists,5791,26455,Male Total Workers,"78,793","98,839",Male Median Earnings
+    Flight attendants,40746,15394,Female Total Workers,"49,809","59,462",Male Median Earnings
+"    Ambulance drivers and attendants, except emergency medical technicians",1882,6302,Male Total Workers,"30,140","32,495",Male Median Earnings
+"    Bus drivers, school",63902,62318,Female Total Workers,"30,333","37,445",Male Median Earnings
+"    Bus drivers, transit and intercity",44063,102449,Male Total Workers,"34,695","45,274",Male Median Earnings
+    Driver/sales workers and truck drivers,139383,2608299,Male Total Workers,"32,882","47,415",Male Median Earnings
+    Shuttle drivers and chauffeurs,15364,78872,Male Total Workers,"27,014","32,404",Male Median Earnings
+    Taxi drivers,25564,197990,Male Total Workers,"25,672","31,050",Male Median Earnings
+"    Motor vehicle operators, all other",9509,41035,Male Total Workers,"25,993","34,297",Male Median Earnings
+    Locomotive engineers and operators,1472,41098,Male Total Workers,"80,278","90,619",Male Median Earnings
+    Railroad conductors and yardmasters,2572,41639,Male Total Workers,"62,893","78,418",Male Median Earnings
+    Other rail transportation workers,2166,17544,Male Total Workers,"64,858","70,180",Male Median Earnings
+    Sailors and marine oilers,939,14513,Male Total Workers,"42,769","50,469",Male Median Earnings
+    Ship and boat captains and operators,1575,24336,Male Total Workers,"51,142","81,640",Male Median Earnings
+    Ship engineers,117,2757,Male Total Workers,"136,250","81,958",Female Median Earnings
+    Parking attendants,5756,38011,Male Total Workers,"24,022","27,037",Male Median Earnings
+    Transportation service attendants,6694,57459,Male Total Workers,"24,248","27,107",Male Median Earnings
+    Transportation inspectors,5578,34362,Male Total Workers,"43,847","65,753",Male Median Earnings
+    Passenger attendants,9015,6475,Female Total Workers,"26,270","36,077",Male Median Earnings
+    Other transportation workers,4209,18502,Male Total Workers,"44,375","50,596",Male Median Earnings
+    Crane and tower operators,1479,53043,Male Total Workers,"50,872","62,607",Male Median Earnings
+"    Conveyor, dredge, and hoist and winch operators",1212,14410,Male Total Workers,"32,923","44,875",Male Median Earnings
+    Industrial truck and tractor operators,39901,475570,Male Total Workers,"33,535","35,479",Male Median Earnings
+    Cleaners of vehicles and equipment,34215,185983,Male Total Workers,"26,044","27,602",Male Median Earnings
+"    Laborers and freight, stock, and material movers, hand",263317,1163142,Male Total Workers,"28,970","33,632",Male Median Earnings
+    Machine feeders and offbearers,8217,12623,Male Total Workers,"26,522","34,808",Male Median Earnings
+"    Packers and packagers, hand",177359,136641,Female Total Workers,"25,161","28,851",Male Median Earnings
+    Stockers and order fillers,308341,586343,Male Total Workers,"28,120","30,305",Male Median Earnings
+    Pumping station operators,778,19677,Male Total Workers,"40,471","64,790",Male Median Earnings
+    Refuse and recyclable material collectors,6464,59502,Male Total Workers,"31,416","35,738",Male Median Earnings
+    Other material moving workers,5833,46590,Male Total Workers,"30,666","42,369",Male Median Earnings

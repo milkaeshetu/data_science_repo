@@ -1,0 +1,238 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon May 2 15:13:35 2022
+
+@author: milkawondo
+"""
+
+import dash
+from dash import dcc
+from dash import html
+from dash.dependencies import Input, Output
+import plotly.express as px
+import pandas as pd
+
+stylesheet = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+
+### pandas dataframe to html table
+def generate_table(dataframe, max_rows=15):
+    return html.Table([
+        html.Thead(
+            html.Tr([html.Th(col) for col in dataframe.columns])
+        ),
+        html.Tbody([
+            html.Tr([
+                html.Td(dataframe.iloc[i][col]) for col in dataframe.columns
+            ]) for i in range(min(len(dataframe), max_rows))
+        ])
+    ])
+
+app = dash.Dash(__name__, external_stylesheets=stylesheet)
+
+df_age = pd.read_csv('/Users/milkawondo/Downloads/age.csv')
+df_gender=pd.read_csv('/Users/milkawondo/Downloads/genderr.csv')
+df_hours=pd.read_csv('/Users/milkawondo/Downloads/hours.csv')
+
+sixteen_nineteen = df_age.loc[3:5]
+twenty_twentyfour = df_age.loc[8:10]
+twentyfive_fortyfour = df_age.loc[13:15]
+fortyfive_fiftyfour= df_age.loc[18:20]
+fiftyfive_sixtyfour = df_age.loc[23:25]
+sixtyfive_sixtynine = df_age.loc[28:30]
+seventy_over= df_age.loc[33:35]
+
+roles=df_gender.iloc[:,0:4]
+earnings=df_gender.iloc[:,4:]
+#print(earnings)
+job=df_gender['Job']
+#print(job)
+earnings=pd.concat([job, earnings.reindex(job.index)], axis=1)
+roles=roles.sort_values(by=['Job'])
+earnings=earnings.sort_values(by=['Job'])
+#print(earnings)
+
+n=list(range(1,27))
+a = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+alphabet=pd.DataFrame(n, index=a)
+alphabet=alphabet[0].to_dict()
+#print(alphabet)
+
+
+def generate_label():
+    x=[]
+    for j in roles["Job"]:
+        j=j.lower().strip()
+        for l in alphabet:
+            if j[0]==l:
+                value=alphabet[l]
+                value=str(value)
+                x.append({'label': l.upper() , 'value' : value}) 
+    x=sorted(set(x))
+    return x
+
+
+def age_match(x):
+    if x == '1':
+        return sixteen_nineteen
+    elif x == '2':
+        return twenty_twentyfour
+    elif x == '3':
+        return twentyfive_fortyfour
+    elif x == '4':
+        return fortyfive_fiftyfour
+    elif x == '5':
+        return fiftyfive_sixtyfour
+    elif x == '6':
+        return sixtyfive_sixtynine
+    else:
+        return seventy_over
+
+def alpha_rolesmatch(al):
+    df1 = pd.DataFrame(columns=['Job', 'Female Total Workers', 'Male Total Workers','Role: Who Dominates More?'])
+    #for al in a:
+    al=al.lower()
+    for j in roles["Job"]:
+            x=j
+            j=j.lower().strip()
+            if al==j[0]:
+                
+                df1=pd.concat([df1,roles[roles["Job"].str.contains(x)]])
+                
+    return df1
+
+def alpha_earningsmatch(al):
+    df2 = pd.DataFrame(columns=['Job', 'Female Median Earnings', 'Male Median Earnings','Earnings: Who Dominates More?'])
+    al=al.lower()
+    for j in earnings["Job"]:
+            x=j
+            j=j.lower().strip()
+            if al==j[0]:
+                
+                df2=pd.concat([df2,earnings[earnings["Job"].str.contains(x)]])
+                
+    return df2
+    
+hour_figure=px.bar(df_hours, x="Average Per Year", y="Industry")    
+    
+app.layout=html.Div([html.H1('2020: A Glimpse into the Work Environment', style={'textAlign': 'center'}),
+                     html.H2('A Story of Age and Gender', style={'textAlign': 'center'}),
+                     html.H6("When I graduated in 2020, I was unsure about what job I wanted to pursue. I graduated with majors in Economics, International Business, Finance, and Business Administration, so I had a lot of options and that felt overwhelming. Salary and age of the workforce were important to me, so I decided to build this dashboard to answer the questions that I had during that time."),
+                     html.Div([html.H4("What was the workforce like in regards to age?", style={'textAlign': 'center'})]),
+                               html.H6('This information was important for me because I wanted to know if my work environment would be filled with people in my generation or if other age groups dominated the workforce. I wanted to be prepared because I have not worked with anyone as a peer that was older than me.'),
+                               html.H6("Choose an age range below: "),
+                               dcc.Dropdown(id='dropdown1',
+                                    options=[
+                                        {'label': '16-19', 'value': '1'},
+                                        {'label': '20-24', 'value': '2'},
+                                        {'label': '25-44', 'value': '3'},
+                                        {'label': '45-54', 'value': '4'},
+                                        {'label': '55-64', 'value': '5'},
+                                        {'label': '65-69', 'value': '6'},
+                                        {'label': '70+', 'value': '7'},]),
+                                        
+                                dcc.Graph(id='barplot2'),   
+                                html.H5('This graph shows that the workforce is dominated by workers above the age of 25.'),
+                 
+                    html.H4("How many men and women worked in different roles?",style={'textAlign': 'center'}),
+                             html.H6('I was also very interested in the gender disparities in different roles, and I wanted to be prepared to see if I was entering a male or female dominated industry.'),
+                             dcc.Dropdown(id='dropdown2',
+                                          options=[ 
+                                              {'label': 'A', 'value': 'A'},
+                                              {'label': 'B', 'value': 'B'},
+                                              {'label': 'C', 'value': 'C'},
+                                              {'label': 'D', 'value': 'D'},
+                                              {'label': 'E', 'value': 'E'},
+                                              {'label': 'F', 'value': 'F'},
+                                              {'label': 'G', 'value': 'G'},
+                                              {'label': 'H', 'value': 'H'},
+                                              {'label': 'I', 'value': 'I'},
+                                              {'label': 'J', 'value': 'J'},
+                                              {'label': 'L', 'value': 'L'},
+                                              {'label': 'M', 'value': 'M'},
+                                              {'label': 'N', 'value': 'N'},
+                                              {'label': 'O', 'value': 'O'},
+                                              {'label': 'P', 'value': 'P'},
+                                              {'label': 'R', 'value': 'R'},
+                                              {'label': 'S', 'value': 'S'},
+                                              {'label': 'T', 'value': 'T'},
+                                              {'label': 'U', 'value': 'U'},
+                                              {'label': 'V', 'value': 'V'},
+                                              {'label': 'W', 'value': 'W'}
+                                              ]),
+                             html.Div(id='table1'),
+                             html.H6("While some roles I was interested in such as Economists and Financial and investment analysts were male dominated, there were plenty others that were female dominated as well. Some examples of these roles are Market research analysts and marketing specialists and Tax preparers"),
+                            
+                                 
+                    
+                        
+                    
+            
+                
+                    html.H4("What are the salaries for different roles for men and women?", style={'textAlign': 'center'}),
+                    html.H6('This is crucial information for a young woman because gender disparities in different jobs is very common. Being aware of my worth was and is very important to me, so this piece of this dashboard would have been very helpful at the time.'),
+                    dcc.Dropdown(id='dropdown3',
+                                 options=[ 
+                                     {'label': 'A', 'value': 'A'},
+                                     {'label': 'B', 'value': 'B'},
+                                     {'label': 'C', 'value': 'C'},
+                                     {'label': 'D', 'value': 'D'},
+                                     {'label': 'E', 'value': 'E'},
+                                     {'label': 'F', 'value': 'F'},
+                                     {'label': 'G', 'value': 'G'},
+                                     {'label': 'H', 'value': 'H'},
+                                     {'label': 'I', 'value': 'I'},
+                                     {'label': 'J', 'value': 'J'},
+                                     {'label': 'L', 'value': 'L'},
+                                     {'label': 'M', 'value': 'M'},
+                                     {'label': 'N', 'value': 'N'},
+                                     {'label': 'O', 'value': 'O'},
+                                     {'label': 'P', 'value': 'P'},
+                                     {'label': 'R', 'value': 'R'},
+                                     {'label': 'S', 'value': 'S'},
+                                     {'label': 'T', 'value': 'T'},
+                                     {'label': 'U', 'value': 'U'},
+                                     {'label': 'V', 'value': 'V'},
+                                     {'label': 'W', 'value': 'W'}
+                                     ]),
+                    
+                                html.Div(id='table2'),
+                         html.H6("The Median Earnings were overwhelmingly male dominated. While this is not a surprise, it is definitely helpful to have a resource to look at for an understanding of the disparity between salaries. Armed with this information, I would have definitely negotiated higher for the roles I had taken at the time.")
+                    
+                     
+                        ])
+
+
+
+
+server = app.server
+
+
+
+@app.callback(
+    Output(component_id="barplot2",component_property="figure"),
+    [Input(component_id="dropdown1", component_property="value")]
+    )
+
+def selected_table2(value):
+    fig = px.bar(age_match(value), x='Work Status', y='Total in Mil', title=("Total Workers in Different Age Groups by Work Status (in Mil)"))
+    return fig 
+
+@app.callback(
+    Output(component_id="table1",component_property="children"),
+    [Input(component_id="dropdown2", component_property="value")]
+    )
+
+def selected_table3(value):
+    return generate_table(alpha_rolesmatch(value))
+
+@app.callback(
+    Output(component_id="table2",component_property="children"),
+    [Input(component_id="dropdown3", component_property="value")]
+    )
+def selected_table4(value):
+    return generate_table(alpha_earningsmatch(value))
+
+if __name__ == '__main__':
+    app.run_server(debug=True)
+    
