@@ -32,7 +32,9 @@ app = dash.Dash(__name__, external_stylesheets=stylesheet)
 
 df_age = pd.read_csv('/Users/milkawondo/Downloads/age.csv')
 df_gender=pd.read_csv('/Users/milkawondo/Downloads/genderr.csv')
-df_hours=pd.read_csv('/Users/milkawondo/Downloads/hours.csv')
+df_hours=pd.ExcelFile('/Users/milkawondo/Downloads/hours.xls')
+df_hours1=df_hours.parse('x')
+df_hours2=df_hours.parse('y')
 
 sixteen_nineteen = df_age.loc[3:5]
 twenty_twentyfour = df_age.loc[8:10]
@@ -71,6 +73,19 @@ def generate_label():
     x=sorted(set(x))
     return x
 
+def generate_label2():
+    x=[]
+    value=1
+    for j in df_hours["Industry"]:
+        j=str(j)
+        j=j.strip()
+        value=str(value)
+        x.append({'label': j, 'value' : j})
+        value=int(value)
+        value+=1
+    for y in x:
+        
+        print(y, ",")
 
 def age_match(x):
     if x == '1':
@@ -112,16 +127,48 @@ def alpha_earningsmatch(al):
                 df2=pd.concat([df2,earnings[earnings["Job"].str.contains(x)]])
                 
     return df2
-    
-hour_figure=px.bar(df_hours, x="Average Per Year", y="Industry")    
+
+def hours_match(j):
+    df3= pd.DataFrame(columns=['Month', 'Average Per Week'])
+    df3['Average Per Week']=df_hours2[j]
+    df3['Month']=df_hours2['Month']
+    return df3    
+ 
     
 app.layout=html.Div([html.H1('2020: A Glimpse into the Work Environment', style={'textAlign': 'center'}),
-                     html.H2('A Story of Age and Gender', style={'textAlign': 'center'}),
+                     html.H2('A Story of Age, Gender, and Hours Worked', style={'textAlign': 'center'}),
                      html.H6("When I graduated in 2020, I was unsure about what job I wanted to pursue. I graduated with majors in Economics, International Business, Finance, and Business Administration, so I had a lot of options and that felt overwhelming. Salary and age of the workforce were important to me, so I decided to build this dashboard to answer the questions that I had during that time."),
-                     html.Div([html.H4("What was the workforce like in regards to age?", style={'textAlign': 'center'})]),
+                     html.H4("What were the hours worked in each industry?",style={'textAlign': 'center'}),
+                     html.H6('Hours worked was important to me because I wanted to work in an industry where the work-life balance was good. I had side projects I was working on so I wanted to make sure I had time for myself as well.'),
+                              dcc.Dropdown(id='checklist1',
+                              options=[
+                                  {'label': 'Total Private', 'value': 'Total Private'} ,
+                                  {'label': 'Goods-producing', 'value': 'Goods-producing'} ,
+                                  {'label': 'Mining and logging', 'value': 'Mining and logging'} ,
+                                  {'label': 'Construction', 'value': 'Construction'} ,
+                                  {'label': 'Manufacturing', 'value': 'Manufacturing'} ,
+                                  {'label': 'Nondurable goods', 'value': 'Nondurable goods'} ,
+                                  {'label': 'Private service-providing', 'value': 'Private service-providing'} ,
+                                  {'label': 'Trade, transportation, and utilities', 'value': 'Trade, transportation, and utilities'} ,
+                                  {'label': 'Wholesale trade', 'value': 'Wholesale trade'} ,
+                                  {'label': 'Retail trade', 'value': 'Retail trade'} ,
+                                  {'label': 'Transportation and warehousing', 'value': 'Transportation and warehousing'} ,
+                                  {'label': 'Utilities', 'value': 'Utilities'} ,
+                                  {'label': 'Information', 'value': 'Information'} ,
+                                  {'label': 'Financial activities', 'value': 'Financial activities'} ,
+                                  {'label': 'Professional and business services', 'value': 'Professional and business services'} ,
+                                  {'label': 'Education and health services', 'value': 'Education and health services'} ,
+                                  {'label': 'Leisure and hospitality', 'value': 'Leisure and hospitality'} ,
+                                  {'label': 'Other services', 'value': 'Other services'},]),
+                         dcc.Graph(id='barplot1'),
+                     
+                     
+                     
+                     
+                     html.H4("What was the workforce like in regards to age?"),
                                html.H6('This information was important for me because I wanted to know if my work environment would be filled with people in my generation or if other age groups dominated the workforce. I wanted to be prepared because I have not worked with anyone as a peer that was older than me.'),
                                html.H6("Choose an age range below: "),
-                               dcc.Dropdown(id='dropdown1',
+                               dcc.Dropdown(id='dropdown1', 
                                     options=[
                                         {'label': '16-19', 'value': '1'},
                                         {'label': '20-24', 'value': '2'},
@@ -129,10 +176,12 @@ app.layout=html.Div([html.H1('2020: A Glimpse into the Work Environment', style=
                                         {'label': '45-54', 'value': '4'},
                                         {'label': '55-64', 'value': '5'},
                                         {'label': '65-69', 'value': '6'},
-                                        {'label': '70+', 'value': '7'},]),
+                                        {'label': '70+', 'value': '7'}]),
                                         
                                 dcc.Graph(id='barplot2'),   
                                 html.H5('This graph shows that the workforce is dominated by workers above the age of 25.'),
+                 
+                    
                  
                     html.H4("How many men and women worked in different roles?",style={'textAlign': 'center'}),
                              html.H6('I was also very interested in the gender disparities in different roles, and I wanted to be prepared to see if I was entering a male or female dominated industry.'),
@@ -208,6 +257,14 @@ app.layout=html.Div([html.H1('2020: A Glimpse into the Work Environment', style=
 server = app.server
 
 
+@app.callback(
+    Output(component_id="barplot1",component_property="figure"),
+    [Input(component_id="checklist1", component_property="value")]
+    )
+
+def selected_table1(value):
+    fig = px.bar(hours_match(value), x='Month', y='Average Per Week', title=("Average Hours Worked Per Week by Industry"))
+    return fig 
 
 @app.callback(
     Output(component_id="barplot2",component_property="figure"),
@@ -215,7 +272,7 @@ server = app.server
     )
 
 def selected_table2(value):
-    fig = px.bar(age_match(value), x='Work Status', y='Total in Mil', title=("Total Workers in Different Age Groups by Work Status (in Mil)"))
+    fig = px.pie(age_match(value), names='Work Status', values='Total in Mil', title=("Total Workers in Different Age Groups by Work Status (in Mil)"))
     return fig 
 
 @app.callback(
